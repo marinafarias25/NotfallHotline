@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notfall Hotline</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="background"></div>
+
+    <div class="container">
+
+        <p class="red-instruction">RUFT DIE NOTFALL- HOTLINE SOFORT AN:</p>
+
+        <div class="number-inputs">
+            <input type="text" maxlength="1">
+            <input type="text" maxlength="1">
+            <input type="text" maxlength="1">
+            <input type="text" maxlength="1">
+            <input type="text" maxlength="1">
+            <input type="text" maxlength="1">
+            <input type="text" maxlength="1">
+            <input type="text" maxlength="1">
+            <input type="text" maxlength="1">
+            <input type="text" maxlength="1">
+        </div>
+
+        <button class="call-button">Anrufen</button>
+
+        <div id="error-message" class="hidden">
+            ❌ Falsche Nummer! Versucht es nochmal.
+        </div>
+
+        <div id="instruction" class="hidden">
+            📞 Verbindung hergestellt! 
+        </div>
+
+        <audio id="callSound" src="telephone-dial-and-call-ring-21151.mp3"></audio>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
